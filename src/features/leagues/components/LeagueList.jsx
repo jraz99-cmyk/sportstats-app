@@ -1,8 +1,8 @@
 import Spinner from '@/shared/components/Spinner';
-import { useLeagues } from '../hooks';
 
-export default function LeagueList(){
-    const{leagues,status} = useLeagues();
+
+export default function LeagueList({leagues,status}){
+    
     if(status==='loading')
         return <Spinner/>
     if(status==='error')

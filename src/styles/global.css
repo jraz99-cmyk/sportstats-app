@@ -1,0 +1,8 @@
+:root{--bg:#0B0f14;--panel: #131920;
+     --panel-alt: #1B222C; --line: #262E3A; 
+     --text: #F5F7FA; --muted: #8A93A3; 
+     --amber: #FFB020; --green: #3ACB6E; 
+     --red: #E5555A;}
+     *{box-sizing: border-box}
+     body{margin: 0; background: var(--bg);color: var(--text);font-family:'inter',system-ui,sans-serif;}
+     .display{font-family: 'Barlow Condensed',sans-serif;font-weight: 700;};
